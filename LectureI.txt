@@ -212,6 +212,13 @@ Note: String is an immutable object.
 ## Pillars of Oops
 
 - **Encapsulation**: Process of wrapping data & methods into a single unit.
+                     (1) Encapsulation in Java combines data and method in a class.
+                     (2) It ensures to prevent unauthorized access to data members of object.
+                     (3) There are majore advantages of Encapsulation: 
+                         * Security
+                         * Code flexibility
+                         * Modularity
+                         * Maintainability
 
 - **Inheritence**: Process of inheriting properties of 'Parent(Super)-Class' by 'Child(Sub)-Class'.
   
