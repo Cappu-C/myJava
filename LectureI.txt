@@ -4,6 +4,8 @@
 
 ### Chapter I: Java Basics
 - Source Code to Bytecode
+   (1) Javac compiler compiles a .java file. The javac compiler generates .class files contaiing the corresponding bytecode.
+   (2) This bytecode is executed by JVM (Java Virtual Machine)
 - JVM and Platform Independence
 
 ### Chapter II: Object-Oriented Programming (OOP)
