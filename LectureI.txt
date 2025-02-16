@@ -227,10 +227,14 @@ Note: String is an immutable object.
                    (4) The [super] keyword is used to call the method of the parent class from the method of the child class.
   
 - **Abstraction**: Process of hiding complex implementation details of an Object & Showing only the essential features of an object.
+                   (1) It allows focusing on what object does instead of how it does it.
+                   (2) Abstraction can be achieved through abstract classes and interfaces.
+                   (3) An abstract class is declared using the [abstract] keyword and may contain abstract methods.
+                   (4) If a class has at least one abstract method, it must be declared abstract.
 
 - **Polymorphism**: Ability of different classes to be treated as instance of same class.
-                    (1) Polymorphism allows us to perform the same action in different ways (forms). For example, speak() method can be different forms according to each animal.
-                    (2) It means that the same entity (method, operator or object) can perform differnet operations in different scenarios.
+                   (1) Polymorphism allows us to perform the same action in different ways (forms). For example, speak() method can be different forms according to each animal.
+                   (2) It means that the same entity (method, operator or object) can perform differnet operations in different scenarios.
 
 
 
