@@ -229,6 +229,8 @@ Note: String is an immutable object.
 - **Abstraction**: Process of hiding complex implementation details of an Object & Showing only the essential features of an object.
 
 - **Polymorphism**: Ability of different classes to be treated as instance of same class.
+                    (1) Polymorphism allows us to perform the same action in different ways (forms). For example, speak() method can be different forms according to each animal.
+                    (2) It means that the same entity (method, operator or object) can perform differnet operations in different scenarios.
 
 
 
