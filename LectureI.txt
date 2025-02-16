@@ -224,6 +224,7 @@ Note: String is an immutable object.
                    (1) Inheritance allows one class to inherit fields and methods from one class to another. 
                    (2) It promodes code reusability, method overriding, and abstraction
                    (3) If the same method is present in both the superclass and subclass, the method in the subclass overrides the method in the superclass.
+                   (4) The [super] keyword is used to call the method of the parent class from the method of the child class.
   
 - **Abstraction**: Process of hiding complex implementation details of an Object & Showing only the essential features of an object.
 
