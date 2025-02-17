@@ -38,6 +38,12 @@
 - Access-Modifiers,
 - Exceptions,
 
+### Chapter VIII: Arrays
+- Basics of Arrays
+- Basics of ArrayLists
+
+  The add() method in the ArrayList class is used to add elements to the list
+
 
 ------------------------------------------------------------------------------------<CHAPTER-I>-------------------------------------------------------------------------------------------------
 
