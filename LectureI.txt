@@ -45,6 +45,10 @@
   The add() method in the ArrayList class is used to add elements to the list
 
 
+### Chapter IX: Buffer
+- Basics of Buffer
+
+
 ------------------------------------------------------------------------------------<CHAPTER-I>-------------------------------------------------------------------------------------------------
 
 
@@ -593,6 +597,7 @@ java.lang --------------> object --------------------> throwable ---------------
 -----------------------------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------<CHAPTER-VIII>-----------------------------------------------------------------------------------------------
+
 // Arrays
 // Basics of Arrays
 
@@ -695,4 +700,11 @@ java.lang --------------> object --------------------> throwable ---------------
 - Supports generics...
 
 - Primitive data types are not directly added unlikely arrays [Added by using "autoboxing" & "unboxing" ].
+
+------------------------------------------------------------------------------------<CHAPTER-IX>-----------------------------------------------------------------------------------------------
+# What is Buffer?
+- Buffer is a place in memory which assists in reading from an input device and writing to an output device.
+- In other words, Java applications use memory to store data temporarily as it is being processed.
+- One of the memory spaces used by Java applications is the buffer pool memory space, which is used to store data structures such as buffers and caches.
+
 
