@@ -20,6 +20,13 @@ public class consumBuffer {
                     id = sc.nextInt(); //USER INPUT: 101_, WILL CONSUME 101 AS IT IS, BUT THERE IS _ LEFT IN THE BUFFER...
                     sc.nextLine();
                     break;
+                /*
+                    If input is invalid, that means it is not an integer, then it goes to the catch block.
+                    Now the catch block consume string or the invalid input. But, again it will not consume the remianing character (\n or \0) in the buffer still exists.
+                    Sinc the break statement is not yet triggered (it will trigger only when we get correct input)
+                    So loop continues, so it goes again to the "Try" block..., and since it(\n or \0) gain invalid control will again go to the catch block.
+                    Now the catch block might consume the \n or \0 but again there might be something else remaining, go to the try block.
+                */
                 } catch(Exception e){
                     System.out.println("Invalid input, Try again!");
 
